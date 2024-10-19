@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">X &amp; O Game</string>
+    <string name="select_one_of_these_mode">Select one of these mode:</string>
+    <string name="welcome_to_x_o_game">Welcome To X,O Game</string>
+    <string name="vs"> VS </string>
+    <string name="player_x">Player X</string>
+    <string name="player_y">Player Y</string>
+</resources>

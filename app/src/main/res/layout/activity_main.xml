@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:text="@string/welcome_to_x_o_game"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        app:drawableBottomCompat="@drawable/lines" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_one_of_these_mode"
+        android:textSize="20sp"
+        android:textColor="@color/dark_blue"
+        android:background="@drawable/half_curve"
+        android:padding="12dp"
+        android:layout_margin="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:text="@string/vs"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:background="@drawable/select_btn"
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        android:clickable="true"
+        app:drawableEndCompat="@drawable/person"
+        app:drawableStartCompat="@drawable/person" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:text="@string/vs"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:background="@drawable/select_btn"
+        android:padding="8dp"
+        android:clickable="true"
+        app:drawableEndCompat="@drawable/computer"
+        app:drawableStartCompat="@drawable/person" />
+
+
+</LinearLayout>
